@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '0c32650272446885e76928deb45922b4',
 
   PROVINCE: '北京',
-  CITY: '北京',
+  CITY: '北京朝阳区',
 
 
   USERS: [
@@ -26,11 +26,11 @@ const USER_CONFIG = {
       id: 'SCT178815TwZ2YW4rcskKlNAvLQF1i5qlb',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '0001',
+      useTemplateId: 'GyAri7sUByVtHPdi_fnHveEUzDcRtUxzJaHK78eLGVc',
       // 所在省份或城市，也可以不填
       province: '北京',
       // 所在城市或县区
-      city: '北京',
+      city: '北京朝阳区',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '08-01',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -40,9 +40,6 @@ const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日',name: '小文裕', year: '1998', date: '08-01',
-        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日',name: '小文裕', year: '1998', date: '08-01',
@@ -52,14 +49,14 @@ const USER_CONFIG = {
  ],
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-      useTemplateId: '',
+      useTemplateId: 'GyAri7sUByVtHPdi_fnHveEUzDcRtUxzJaHK78eLGVc',
   CALLBACK_TEMPLATE_ID: '',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'SCT178815TwZ2YW4rcskKlNAvLQF1i5qlb',
     }
   ],
 
