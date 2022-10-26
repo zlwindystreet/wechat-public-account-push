@@ -1,8 +1,8 @@
 /* eslint-disable */
 const TEMPLATE_CONFIG = [
   {
-    id: '0001',
-    title: '亲爱的, 早上好',
+    id: '8222338f14a54210b01e3b33e59e3199',
+    title: '小文裕, 早上好呀！',
     desc: `
       **{{date.DATA}}**
       
@@ -24,7 +24,6 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
       
       {{birthday_message.DATA}}
       
