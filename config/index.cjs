@@ -48,7 +48,7 @@ const USER_CONFIG = {
         },
       ],
    },
-
+ ],
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
       useTemplateId: '1toO_Tjryn4Lz12_yfrw1Bs0NefA9Ie8Sb7bu_mbVdY',
