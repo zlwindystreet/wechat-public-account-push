@@ -7,16 +7,15 @@
  */
 const USER_CONFIG = {
   
-  USE_PASSAGE: 'server-chan',
-
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx58d0a0e01484c9b2',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '0c32650272446885e76928deb45922b4',
 
   PROVINCE: '北京',
   CITY: '北京',
+
 
   USERS: [
     {
