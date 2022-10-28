@@ -26,7 +26,7 @@ const USER_CONFIG = {
       name: '小文裕',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'SCT178815TwZ2YW4rcskKlNAvLQF1i5qlb',
+      id: 'SCT179241TY0BCPU0rgnassRUJQ9wMjaQh',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '0001',
@@ -52,14 +52,14 @@ const USER_CONFIG = {
  ],
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-      useTemplateId: 'oL7FTtUcRVEME46UvpJJ0Uu2fWSG50pVhRh8FmtAofE',
-  CALLBACK_TEMPLATE_ID: 'oL7FTtUcRVEME46UvpJJ0Uu2fWSG50pVhRh8FmtAofE',
+      useTemplateId: '',
+  CALLBACK_TEMPLATE_ID: '',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oVEqa5mXsU-iUzSNjZZJJoxJPtxM',
+      id: 'SCT178815TwZ2YW4rcskKlNAvLQF1i5qlb',
     }
   ],
 
