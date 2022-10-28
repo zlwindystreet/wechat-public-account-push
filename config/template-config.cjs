@@ -19,12 +19,12 @@ const TEMPLATE_CONFIG = [
       风向: {{wind_direction.DATA}}
       
       风级: {{wind_scale.DATA}}
-      
+      {{notice.DATA}}
       {{comprehensive_horoscope.DATA}}
       
       ---
       
-      
+   
       {{birthday_message.DATA}}
       
       ---
