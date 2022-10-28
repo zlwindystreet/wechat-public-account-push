@@ -6,7 +6,6 @@ const TEMPLATE_CONFIG = [
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
       
       ---
       
@@ -22,7 +21,6 @@ const TEMPLATE_CONFIG = [
       
       {{notice.DATA}}
       
-      ---
       
       {{comprehensive_horoscope.DATA}}
       
@@ -35,6 +33,7 @@ const TEMPLATE_CONFIG = [
       
          
       {{note_en.DATA}} 
+      
       {{note_ch.DATA}}
 
     `
