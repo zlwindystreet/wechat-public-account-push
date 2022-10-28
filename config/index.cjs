@@ -14,9 +14,9 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
   
-  province: '北京',
+  province: '',
       // 所在城市或县区
-      city: '北京朝阳区',
+      city: '北京',
 
   
 
